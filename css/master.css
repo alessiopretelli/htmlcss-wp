@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  width: 40%;
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+}
+
+footer {
+  height: 3vh;
+  width: 100%;
+  margin-top: 2vh;
+  font-size: 10px;
+  text-align: center;
+}
+
+p {
+  color: lightgray;
+  font-size: 8px;
+  margin-top: 5px;
+}
+
+
+.layover {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.sec_two::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.sec_one {
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 10px;
+  height: 33vh;
+  width: 100%;
+  margin: 0 0 3vh 0;
+}
+.text_sec_one {
+  position: absolute;
+  color: white;
+  bottom: 15%;
+  padding: 0 5%;
+}
+.sec_one p {
+  font-size: 0.75em;
+  color: white;
+}
+
+#logo {
+  height: 100%;
+}
+.logo div {
+  float: left;
+  height: 100%;
+  border-right: 1px solid lightgray;
+}
+.logo div img {
+  margin-right: 1vw;
+}
+.logo, .links {
+  width: 100%;
+  height: 50%;
+}
+.links {
+  padding: 1vh 0;
+}
+.links li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 1% 0 0;
+}
+.links li a {
+  text-transform: uppercase;
+  font-size: 0.4em;
+  color: lightgray;
+  text-decoration: none;
+}
+.links li a:hover {
+  text-shadow: 1px 1px 0 lightgray;
+  color: black;
+}
+
+.header_sec_two {
+  width: 100%;
+  height: 5vh;
+  padding: 2% 0;
+}
+.sec_two .side_column {
+  float: left;
+  height: 40vh;
+  width: 20%;
+  margin: 2vh 0;
+}
+.sec_two .middle_column {
+  float: left;
+  height: 40vh;
+  width: 58%;
+  margin: 2vh 1%;
+}
+.image_one {
+  background-image: url(../img/img-1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  width: 100%;
+  height: 40%;
+  margin-bottom: 20px;
+}
+.image_two {
+  background-image: url(../img/banner-2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  width: 100%;
+  height: 40%;
+  margin-bottom: 20px;
+}
+.image_three {
+  background-image: url(../img/img-3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  width: 100%;
+  height: 40%;
+  margin-bottom: 20px;
+}
