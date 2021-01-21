@@ -16,19 +16,26 @@ header {
 }
 
 footer {
-  height: 3vh;
+  height: 30px;
   width: 100%;
   margin-top: 2vh;
-  font-size: 10px;
+  font-size: 1.5vh;
   text-align: center;
 }
 
 p {
   color: lightgray;
-  font-size: 8px;
-  margin-top: 5px;
+  font-size: 1vh;
+  margin-top: 4px;
 }
 
+h3 {
+  font-size: 2.5vh;
+}
+
+h5 {
+  font-size: 2vh;
+}
 
 .layover {
   height: 100%;
@@ -49,7 +56,7 @@ p {
   background-position: center;
   position: relative;
   border-radius: 10px;
-  height: 33vh;
+  height: 32vh;
   width: 100%;
   margin: 0 0 3vh 0;
 }
@@ -60,7 +67,7 @@ p {
   padding: 0 5%;
 }
 .sec_one p {
-  font-size: 0.75em;
+  font-size: 2vh;
   color: white;
 }
 
@@ -80,16 +87,16 @@ p {
   height: 50%;
 }
 .links {
-  padding: 1vh 0;
+  padding: 0.5vh 0;
 }
 .links li {
   display: inline-block;
   list-style: none;
-  margin: 0 1% 0 0;
+  margin: 0 1vh 0 0;
 }
 .links li a {
   text-transform: uppercase;
-  font-size: 0.4em;
+  font-size: 1vh;
   color: lightgray;
   text-decoration: none;
 }
@@ -100,18 +107,16 @@ p {
 
 .header_sec_two {
   width: 100%;
-  height: 5vh;
-  padding: 2% 0;
+  height: 6vh;
+  padding: 1% 0;
 }
-.sec_two .side_column {
+.side_column {
   float: left;
-  height: 40vh;
   width: 20%;
   margin: 2vh 0;
 }
-.sec_two .middle_column {
+.middle_column {
   float: left;
-  height: 40vh;
   width: 58%;
   margin: 2vh 1%;
 }
@@ -121,8 +126,8 @@ p {
   background-position: center;
   border-radius: 10px;
   width: 100%;
-  height: 40%;
-  margin-bottom: 20px;
+  height: 15vh;
+  margin-bottom: 3vh;
 }
 .image_two {
   background-image: url(../img/banner-2.jpg);
@@ -130,8 +135,8 @@ p {
   background-position: center;
   border-radius: 10px;
   width: 100%;
-  height: 40%;
-  margin-bottom: 20px;
+  height: 15vh;
+  margin-bottom: 3vh;
 }
 .image_three {
   background-image: url(../img/img-3.jpg);
@@ -139,6 +144,6 @@ p {
   background-position: center;
   border-radius: 10px;
   width: 100%;
-  height: 40%;
-  margin-bottom: 20px;
+  height: 15vh;
+  margin-bottom: 3vh;
 }
